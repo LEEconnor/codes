@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../codes/algorithm-datastructure/algorithm-datastructure.iml" filepath="$PROJECT_DIR$/../codes/algorithm-datastructure/algorithm-datastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../codes/base/base.iml" filepath="$PROJECT_DIR$/../codes/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codes.iml" filepath="$PROJECT_DIR$/codes.iml" />
+    </modules>
+  </component>
+</project>
