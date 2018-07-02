@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="923b50fc-1e51-4960-b6e3-9cd7269e4864" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../codes/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../codes/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/xml/package-info.java" afterPath="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/serialization/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/serialization/package-info.java" afterPath="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/serialization/package-info.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,8 +71,8 @@
       <file leaf-file-name="package-info.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/serialization/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="125">
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -369,7 +369,7 @@
       <option name="presentableId" value="Default" />
       <updated>1530516473513</updated>
       <workItem from="1530516477457" duration="1203000" />
-      <workItem from="1530517887217" duration="1551000" />
+      <workItem from="1530517887217" duration="1563000" />
     </task>
     <task id="LOCAL-00001" summary="建立包结构">
       <created>1530519170099</created>
@@ -385,11 +385,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530519300781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="建立包结构">
+      <created>1530519445361</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530519445361</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2754000" />
+    <option name="totallyTimeSpent" value="2766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -572,8 +579,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/serialization/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="125">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
