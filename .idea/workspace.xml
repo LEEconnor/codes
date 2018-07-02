@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="923b50fc-1e51-4960-b6e3-9cd7269e4864" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/annotation/package-info.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/generics/package-info.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/log/package-info.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/reflection/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/beancopy/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/xml/package-info.java" />
       <change beforePath="$PROJECT_DIR$/../codes/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../codes/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../codes/algorithm-datastructure/src/main/java/com/codes/algorithmdatastructure/AlgorithmDatastructureApplication.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/BaseApplication.java" afterPath="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/BaseApplication.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../codes/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../codes/base/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,11 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/reflection/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/xml/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -88,6 +84,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/beancopy/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -135,6 +141,8 @@
         <option value="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/generics/package-info.java" />
         <option value="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/annotation/package-info.java" />
         <option value="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/reflection/package-info.java" />
+        <option value="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/beancopy/package-info.java" />
+        <option value="$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/xml/package-info.java" />
       </list>
     </option>
   </component>
@@ -206,26 +214,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codes" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codes" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="reflection" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -245,13 +233,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\codes\base\src\main\java\com\plums\base\xml" />
+      <recent name="G:\codes\base\src\main\java\com\plums\base\beancopy" />
       <recent name="G:\codes\base\src\main\java\com\plums\base\reflection" />
       <recent name="G:\codes\base\src\main\java\com\plums\base\annotation" />
       <recent name="G:\codes\base\src\main\java\com\plums\base\generics" />
-      <recent name="G:\codes\base\src\main\java\com\plums\base\log" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -379,12 +369,20 @@
       <option name="presentableId" value="Default" />
       <updated>1530516473513</updated>
       <workItem from="1530516477457" duration="1203000" />
-      <workItem from="1530517887217" duration="1263000" />
+      <workItem from="1530517887217" duration="1395000" />
     </task>
+    <task id="LOCAL-00001" summary="建立包结构">
+      <created>1530519170099</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530519170100</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2466000" />
+    <option name="totallyTimeSpent" value="2598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -432,6 +430,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="建立包结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="建立包结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -513,14 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/generics/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/annotation/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -545,10 +539,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/generics/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/beancopy/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/reflection/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../codes/base/src/main/java/com/plums/base/xml/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
           <folding />
         </state>
       </provider>
