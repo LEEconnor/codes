@@ -6,7 +6,6 @@ import org.springframework.cglib.proxy.Callback;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
-import org.springframework.util.CollectionUtils;
 import org.springframework.util.ObjectUtils;
 
 import javax.validation.constraints.NotNull;
@@ -56,7 +55,7 @@ public class Annotation {
         PrintName printNamerintName = null;
         try {
             printNamerintName = (PrintName) Test.getBean(PrintName.class.getName());
-            System.out.println(printNamerintName.getName());
+            printNamerintName.getName();
         } catch (ClassNotFoundException e) {
             System.out.println("ClassNotFoundException --- ");
         } catch (IllegalAccessException e) {
@@ -75,14 +74,12 @@ public class Annotation {
  */
 class PrintName {
 
-    @PrintLogAtStartAndEnd()
-    public String getName() {
-
+    @PrintLogAtStartAndEnd(startMsg = "this is method begin ",endMsg = "this is method end")
+    public void getName() {
         String firstName = "LEE";
         String lastName = "plums";
         String fullName = firstName + lastName;
-        return fullName;
-
+        System.out.println(fullName);
     }
 
 }
@@ -121,6 +118,8 @@ class Test {
                 String startMsg = annotation.startMsg();
                 String endMsg = annotation.endMsg();
                 callbacks.add(new MethodInterceptor() {
+
+//                    Object为由CGLib动态生成的代理类实例，Method为上文中实体类所调用的被代理的方法引用，Object[]为参数值列表，MethodProxy为生成的代理类对方法的代理引用。
                     @Override
                     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
                         log.info(startMsg);
