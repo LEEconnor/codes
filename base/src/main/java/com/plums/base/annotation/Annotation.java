@@ -18,12 +18,14 @@ import java.util.*;
 @Target({ElementType.METHOD, ElementType.TYPE}) // 注解可以使用于哪 :
 //@Inherited  // 该注解可以被子类继承 ： 父类使用了该注解，子类没有显式标注的情况下 也会自动使用此注解
 @Repeatable(Persons.class)
+@Documented
 @interface Person {
     String value() default ""; // 可以使用value来自动简化对其属性的赋值
 }
 
 @Target({ElementType.METHOD, ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
+@Documented
 @interface Persons {
     Person[] value();
 }
@@ -91,9 +93,7 @@ class Test {
     public static Object getBean(@NotNull String beanName) throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchFieldException {
 
         if (!beanMap.containsKey(beanName)) {
-            Class<?> aClass = Class.forName(beanName);
-            Enhancer enhancer = initClaz(aClass);
-            beanMap.put(beanName, enhancer.create());
+            beanMap.put(beanName, initClaz(Class.forName(beanName)).create());
         }
 
         return beanMap.get(beanName);
