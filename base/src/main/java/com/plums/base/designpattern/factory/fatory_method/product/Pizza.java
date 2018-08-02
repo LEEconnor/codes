@@ -1,4 +1,4 @@
-package com.plums.base.designpattern.factory.product;
+package com.plums.base.designpattern.factory.fatory_method.product;
 
 public class Pizza {
 

@@ -2,103 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d087fff0-c901-42f5-b460-38c8d2efff60" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/decorator/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/NYPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/TestFactoryMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/ChicagoStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/ChicagoStyleClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/ChicagoStylePepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/NYStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/NYStyleClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/NYStylePepperoniPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/SimpleRemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/impl/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/AbstractFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredient/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredient/Dough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredient/Sauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredientFactory/PizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredientFactory/impl/BeiJingPizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredientFactory/impl/NYPizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/pizzastore/AbstractFactoryPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/pizzastore/impl/NYPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/product/AbstraceFactoryPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/product/impl/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/product/impl/DoughPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/test/consumer/behavior/BaseBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/test/consumer/work/Work.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/test/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/NYPizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/pizzastore/impl/NYPizzaStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/PizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/pizzastore/PizzaStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/TestFactoryMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/TestFactoryMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/product/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/ChicagoStyleCheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/product/impl/ChicagoStyleCheesePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/ChicagoStyleClamPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/product/impl/ChicagoStyleClamPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/ChicagoStylePepperoniPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/product/impl/ChicagoStylePepperoniPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/NYStyleCheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/product/impl/NYStyleCheesePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/NYStyleClamPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/product/impl/NYStyleClamPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/NYStylePepperoniPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/product/impl/NYStylePepperoniPizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/algorithm-datastructure/target/" />
     <ignored path="$PROJECT_DIR$/base/target/" />
+    <ignored path="$PROJECT_DIR$/jpa-elasticsearch/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,108 +51,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="PizzaStore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/PizzaStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestFactoryMethod.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/TestFactoryMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NYPizzaStore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/NYPizzaStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/package-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/package-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NYStylePepperoniPizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/NYStylePepperoniPizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NYStyleClamPizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/NYStyleClamPizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChicagoStyleCheesePizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/ChicagoStyleCheesePizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChicagoStylePepperoniPizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/ChicagoStylePepperoniPizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChicagoStyleClamPizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/ChicagoStyleClamPizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com.sun.jna</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -216,12 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/decorator/package-info.java" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/package-info.java" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/package-info.java" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_fatory/Pizza.java" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/Pizza.java" />
         <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/NYStyleCheesePizza.java" />
         <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/NYStyleClamPizza.java" />
         <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/ChicagoStyleCheesePizza.java" />
@@ -234,6 +84,45 @@
         <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/PizzaStore.java" />
         <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/TestFactoryMethod.java" />
         <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/package-info.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/Dough.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/Sauce.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/Cheese.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/NYPizzaIngredientFactory.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/PizzaIngredientFactory.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/AbstraceFactoryPizza.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredient/PizzaIngredientFactory.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/productImpl/CheesePizza.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredientFactory/NYPizzaIngredientFactory.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/pizzastore/NYPizzaStore.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/pizzastore/AbstractFactoryPizzaStore.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/pizzastore/impl/NYPizzaStore.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/product/impl/ChicagoStyleCheesePizza.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/pizzastore/NYPizzaStore.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/pizzastore/PizzaStore.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/product/AbstraceFactoryPizza.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredientFactory/impl/NYPizzaIngredientFactory.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredient/Cheese.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredient/Dough.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredient/Sauce.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/AbstractFactoryTest.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/package-info.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/package-info.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/product/impl/CheesePizza.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/product/impl/DoughPizza.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredientFactory/impl/BeiJingPizzaIngredientFactory.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/Command.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/Light.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/impl/LightOnCommand.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/SimpleRemoteControl.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/package-info.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/mycommand/Command.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/mycommand/Work.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/mycommand/impl/IOWork.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/mycommand/impl/CalutionWork.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/mycommand/package-info.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/test/package-info.java" />
+        <option value="$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/test/consumer/behavior/BaseBehavior.java" />
+        <option value="$PROJECT_DIR$/jpa-elasticsearch/pom.xml" />
       </list>
     </option>
   </component>
@@ -254,19 +143,12 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -284,7 +166,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,94 +178,23 @@
             </path>
             <path>
               <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codes" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codes" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codes" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codes" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codes" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codes" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codes" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codes" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="fatory_method" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codes" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="strategypattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/base/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -392,12 +205,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.plums.base.designpattern.factory.abstract_factory" />
       <recent name="com.plums.base.designpattern.factory.abstract_fatory" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.plums.base.designpattern.factory.product.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\codes\base\src\main\java\com\plums\base\designpattern\command" />
+      <recent name="E:\codes\base\src\main\java\com\plums\base\designpattern\factory\abstract_factory" />
       <recent name="E:\codes\base\src\main\java\com\plums\base\designpattern\factory\fatory_method" />
       <recent name="E:\codes\base\src\main\java\com\plums\base\designpattern\factory" />
       <recent name="E:\codes\base\src\main\java\com\plums\base\designpattern\decorator" />
@@ -415,9 +231,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestFactoryMethod.test">
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.plums.base.designpattern.factory.abstract_factory.AbstractFactoryTest" />
+      <module name="base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.plums.base.designpattern.factory.abstract_factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -426,7 +253,7 @@
       <module name="base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.plums.base.designpattern.factory.fatory_method.*" />
+          <option name="PATTERN" value="com.plums.base.designpattern.factory.fatory_method.pizzastore.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -464,6 +291,16 @@
     <configuration name="BaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="base" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plums.base.BaseApplication" />
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="jpa-elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -504,9 +341,13 @@
     <list>
       <item itemvalue="Spring Boot.BaseApplication" />
       <item itemvalue="JUnit.TestFactoryMethod.test" />
+      <item itemvalue="Application.AbstractFactoryTest" />
+      <item itemvalue="Spring Boot.DemoApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DemoApplication" />
+        <item itemvalue="Application.AbstractFactoryTest" />
         <item itemvalue="JUnit.TestFactoryMethod.test" />
       </list>
     </recent_temporary>
@@ -522,8 +363,22 @@
       <option name="presentableId" value="Default" />
       <updated>1531275681062</updated>
       <workItem from="1531275687600" duration="4849000" />
-      <workItem from="1531300534294" duration="5731000" />
+      <workItem from="1531300534294" duration="6341000" />
+      <workItem from="1531357591771" duration="11316000" />
+      <workItem from="1531875459668" duration="6305000" />
+      <workItem from="1532308289710" duration="786000" />
+      <workItem from="1532314262069" duration="2014000" />
+      <workItem from="1532396401817" duration="788000" />
+      <workItem from="1533191427796" duration="594000" />
     </task>
+    <task id="LOCAL-00001" summary="工厂模式">
+      <created>1531309146684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531309146684</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -532,19 +387,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10580000" />
+    <option name="totallyTimeSpent" value="32993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32994923" />
       <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32985553" />
-      <window_info anchor="bottom" id="JRebel Executor" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32944444" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" />
@@ -553,16 +407,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32994923" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32994923" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.75415283" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38202247" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32890365" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29695025" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="JRebel" order="2" side_tool="true" />
@@ -570,11 +423,12 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32994923" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,192 +437,121 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="工厂模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="工厂模式" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/annotation/Annotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm-datastructure/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/strategypattern/StrategyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/decorator/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/annotation/Annotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm-datastructure/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/decorator/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/strategypattern/StrategyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/NYStyleCheesePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/NYStyleClamPizza.java">
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/product/impl/ChicagoStyleCheesePizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/ChicagoStyleCheesePizza.java">
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/pizzastore/PizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredient/Dough.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredient/Sauce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/AbstractFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/strategypattern/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredient/Cheese.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/ChicagoStylePepperoniPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/ChicagoStyleClamPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/product/impl/NYStylePepperoniPizza.java">
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/pizzastore/AbstractFactoryPizzaStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        <state relative-caret-position="378">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/NYPizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/PizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/TestFactoryMethod.java">
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/pizzastore/impl/NYPizzaStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/product/impl/CheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/product/impl/DoughPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredientFactory/impl/NYPizzaIngredientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredientFactory/impl/BeiJingPizzaIngredientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/abstract_factory/ingredientFactory/PizzaIngredientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -779,10 +562,177 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/factory/fatory_method/package-info.java">
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_91/src.zip!/java/io/OutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_91/src.zip!/java/io/OutputStreamWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/mycommand/Work.java" />
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/mycommand/impl/CalutionWork.java" />
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/mycommand/impl/IOWork.java" />
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/Light.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/impl/LightOnCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/SimpleRemoteControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/command/mycommand/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/observer/observer/CurrnetConditionsDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/observer/subject/WeatherData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/test/consumer/behavior/BaseBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/test/consumer/work/Work.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/test/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/strategypattern/behavior/impl/BowAndArrowBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/strategypattern/behavior/impl/GunBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/strategypattern/behavior/impl/KnifeBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/strategypattern/behavior/impl/NoWeapenBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/strategypattern/behavior/WeapenBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/strategypattern/role/impl/King.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/plums/base/designpattern/strategypattern/role/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/mymvn-respotity/org/springframework/boot/spring-boot-starter-data-jpa/2.0.3.RELEASE/spring-boot-starter-data-jpa-2.0.3.RELEASE.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm-datastructure/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-elasticsearch/src/main/java/com/example/demo/DemoApplication.java" />
+    <entry file="file://$PROJECT_DIR$/jpa-elasticsearch/pom.xml" />
+    <entry file="jar://E:/mymvn-respotity/org/springframework/boot/spring-boot-starter-data-elasticsearch/2.0.3.RELEASE/spring-boot-starter-data-elasticsearch-2.0.3.RELEASE.jar!/META-INF/spring.provides">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -803,7 +753,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -838,12 +788,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>codes</last-edited>
+          <last-edited>jpa-elasticsearch</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -863,6 +812,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

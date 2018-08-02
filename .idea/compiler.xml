@@ -10,5 +10,8 @@
         <module name="base" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jpa-elasticsearch" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

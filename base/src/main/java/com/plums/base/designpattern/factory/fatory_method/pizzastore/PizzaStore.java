@@ -1,6 +1,6 @@
-package com.plums.base.designpattern.factory.fatory_method;
+package com.plums.base.designpattern.factory.fatory_method.pizzastore;
 
-import com.plums.base.designpattern.factory.product.Pizza;
+import com.plums.base.designpattern.factory.fatory_method.product.Pizza;
 
 /**
  *  统一 售卖pizza接口
